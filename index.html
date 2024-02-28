@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="main_content">
+    <div id="margin"></div>
+    <div id="main_text">
+      <h1>I wonder what does this button do? Give it a try.</h1>
+      <p>-</p>
+    </div>
+    <button id="button" onclick="expandHeart()">Click Me</button>
+    <div id="heart_div">
+      <img src="/Assets/heart.png" alt="heart" id="heart">
+      <button id="button2" style="display: none;" onclick="showSurprise()">Final Click</button>
+      <div id="surprise" >
+        <img id="codebrave_image" src="/Assets/Codebrave-removebg-preview.png" style="display:none; margin-top: 70px;">
+        <div id="text_in_surprise">
+        <h1>Love for Coding!!</h1>
+        <p>Let us take this special day to look how far we have come.</p>
+        <p>"Coding is a love affair with logic and creativity, where every line written whispers innovation. In the digital symphony, we sculpt dreams and bring ideas to life, byte by byte."</p>
+        <button id="repeat" onclick="repeatCard()">Repeat?</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
